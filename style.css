@@ -3,8 +3,13 @@ body {
   padding: 0;
   margin: 0;
   position: relative;
+  font-family: "Roboto";
+  font-style: normal;
 }
-
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Regular.ttf");
+}
 header {
   position: relative;
 }
@@ -14,17 +19,14 @@ h1 {
   color: #16b8f3;
   position: absolute;
   left: 144px;
-  font-family: "Roboto";
 }
 
 nav a {
   font-size: 20px;
   color: #f8fafc;
   text-decoration: none;
-  font-family: "Roboto";
 }
 h2 {
-  font-family: "Roboto";
   color: #f8fafc;
   margin-left: 144px;
   margin-top: 132.5px;
@@ -32,6 +34,9 @@ h2 {
 }
 h2 span {
   color: #16b8f3;
+}
+h3 {
+  font-size: 30px;
 }
 h3,
 p {
@@ -46,6 +51,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 42.5px;
 }
 .bars-img {
   margin-left: 100px;
@@ -65,15 +71,36 @@ p {
   border-radius: 20px;
 }
 
-.project-div:first-of-type{
+.project-div:first-of-type {
   margin-top: 83px;
 }
-.project-description-div {
+.project-description-div-1 {
   margin-left: 44px;
   display: inline-block;
 }
-.project-img {
+.project-description-div-2 {
+  margin-left: 86px;
+  display: inline-block;
+}
+.project-description-div-3 {
+  margin-left: 130px;
+  display: inline-block;
+}
+.project-img-1 {
   margin-left: 8px;
   margin-top: 34.12px;
   margin-bottom: 34.12px;
+}
+.project-img-2 {
+  margin-left: 17px;
+  margin-top: 45.95px;
+  margin-bottom: 45.95px;
+}
+.project-img-3 {
+  margin-left: 27px;
+  margin-top: 54.21px;
+  margin-bottom: 54.21px;
+}
+.project-paragraph {
+  font-size: 20px;
 }

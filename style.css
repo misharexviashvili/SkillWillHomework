@@ -14,7 +14,7 @@ h1 {
   color: #16b8f3;
   position: absolute;
   left: 144px;
-font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 nav a {
@@ -24,7 +24,7 @@ nav a {
   font-family: "Roboto";
 }
 h2 {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   color: #f8fafc;
   margin-left: 144px;
   margin-top: 132.5px;
@@ -32,6 +32,10 @@ h2 {
 }
 h2 span {
   color: #16b8f3;
+}
+h3,
+p {
+  color: #f8fafc;
 }
 .narrow-wrapper {
   background-color: #0f172a;
@@ -43,7 +47,7 @@ h2 span {
   justify-content: space-between;
   align-items: center;
 }
-.bars-image {
+.bars-img {
   margin-left: 100px;
 }
 .navigation {
@@ -51,4 +55,25 @@ h2 span {
   width: 384px;
   justify-content: space-between;
   margin-right: 100px;
+}
+.project-div {
+  display: flex;
+  align-items: center;
+  width: 1150px;
+  margin: 41px auto 0;
+  background-color: rgba(30, 41, 59, 0.4);
+  border-radius: 20px;
+}
+
+.project-div:first-of-type{
+  margin-top: 83px;
+}
+.project-description-div {
+  margin-left: 44px;
+  display: inline-block;
+}
+.project-img {
+  margin-left: 8px;
+  margin-top: 34.12px;
+  margin-bottom: 34.12px;
 }

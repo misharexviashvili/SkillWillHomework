@@ -42,6 +42,18 @@ h3,
 p {
   color: #f8fafc;
 }
+h4 {
+  font-size: 24px;
+  color: #f8fafc;
+  margin-bottom: 5px;
+}
+footer {
+  border-top: #cbd5e1 solid 1px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40.5px;
+  padding-bottom: 40.5px;
+}
 .narrow-wrapper {
   background-color: #0f172a;
   width: 1440px;
@@ -103,4 +115,47 @@ p {
 }
 .project-paragraph {
   font-size: 20px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 83px 144.5px 139px;
+}
+.card {
+  width: 369px;
+  height: 518px;
+  text-align: center;
+  background-color: #1e293b;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+.card:last-of-type {
+  margin-right: 0;
+}
+
+.card-parahraph-grey {
+  color: #9ca3af;
+  font-size: 20px;
+}
+.card-paragraph-white {
+  margin: auto 13.5px;
+  font-size: 20px;
+}
+
+.copyright-paragraph {
+  margin-left: 108px;
+  color: #cbd5e1;
+  font-size: 20px;
+  font-weight: 500;
+}
+.find-us {
+  margin-right: 172px;
+  padding: 5.5px 12.8px;
+}
+.social-img {
+  margin-right: 24.67px;
+}
+
+.social-img:last-of-type {
+  margin-right: 0;
 }

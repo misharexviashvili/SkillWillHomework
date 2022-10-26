@@ -6,6 +6,7 @@ body {
   font-family: "Roboto";
   font-style: normal;
 }
+/* Font family */
 @font-face {
   font-family: "Roboto";
   src: url("Roboto-Regular.ttf");
@@ -20,7 +21,9 @@ h1 {
   position: absolute;
   left: 144px;
 }
-a{
+
+a {
+
   text-decoration: none;
 }
 nav a {

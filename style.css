@@ -21,11 +21,12 @@ h1 {
   position: absolute;
   left: 144px;
 }
-
+a {
+  text-decoration: none;
+}
 nav a {
   font-size: 20px;
   color: #f8fafc;
-  text-decoration: none;
 }
 h2 {
   color: #f8fafc;
